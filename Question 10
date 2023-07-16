@@ -1,1 +1,16 @@
+What are the limitations of JSP?
 
+
+Despite their advantages, JSP (JavaServer Pages) have some limitations:
+
+Mixing Logic and Presentation: JSPs can lead to mixing business logic with presentation, which violates the principles of good software design. Over time, this can result in maintenance issues and reduced code readability.
+
+Steep Learning Curve: JSP can have a steeper learning curve for beginners compared to basic HTML or client-side technologies like JavaScript and CSS.
+
+Performance Overhead: JSP pages can incur performance overhead, especially for complex applications, due to the additional translation steps required to convert JSP pages into servlets before execution.
+
+Limited Reusability: Without proper design and separation of concerns, JSPs may become tightly coupled with specific use cases, reducing their reusability across the application.
+
+Debugging Complexity: Debugging JSP pages can be more challenging than debugging pure Java code since JSP combines Java and HTML syntax.
+
+To overcome some of these limitations, developers often adopt the MVC architecture or use frameworks like Spring MVC, which provides better separation of concerns and promotes cleaner code organization.
