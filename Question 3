@@ -1,1 +1,10 @@
+What are the types of statement in JDBC in Java?
 
+
+In JDBC, there are three types of statements:
+
+Statement: This is a basic interface used to execute simple SQL queries without parameters. It can be used for executing static SQL statements.
+
+PreparedStatement: This is a precompiled SQL statement that allows you to execute the same SQL statement repeatedly with different parameter values. It is more efficient and provides protection against SQL injection.
+
+CallableStatement: This interface is used to call stored procedures in the database. It can also be used to execute parameterized SQL queries.
