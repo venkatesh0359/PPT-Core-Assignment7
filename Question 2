@@ -1,1 +1,17 @@
+ What are the steps involved in JDBC?
 
+The steps involved in using JDBC in Java are as follows:
+
+Import JDBC Packages: Import the required JDBC packages to your Java class. These packages are usually part of the java.sql and javax.sql packages.
+
+Load and Register the JDBC Driver: Load the JDBC driver class using Class.forName() or by using DriverManager.registerDriver().
+
+Establish a Connection: Use DriverManager.getConnection() to establish a connection to the database by providing the database URL, username, and password.
+
+Create a Statement: Create a Statement or PreparedStatement object from the Connection to execute SQL queries.
+
+Execute the Query: Use the executeQuery() method of the Statement object to execute a SELECT SQL query or executeUpdate() for INSERT, UPDATE, or DELETE queries.
+
+Process the Result: If you executed a SELECT query, process the result set using the ResultSet object.
+
+Close the Connection: Finally, close the ResultSet, Statement, and Connection objects to free up resources and avoid potential leaks.
