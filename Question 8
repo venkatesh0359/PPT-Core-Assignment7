@@ -1,1 +1,10 @@
+Explain the JSP Model-View-Controller (MVC) architecture.
 
+
+The JSP Model-View-Controller (MVC) architecture is a design pattern commonly used in web development to separate concerns and improve maintainability. It divides an application into three components:
+
+Model: The Model represents the data and business logic of the application. It manages data storage, retrieval, and manipulation. In a JSP-based MVC architecture, the Model is usually implemented using JavaBeans, POJOs (Plain Old Java Objects), or servlets that interact with databases or other data sources.
+
+View: The View is responsible for presenting the data to the user and handling user interface elements. In a JSP-based MVC architecture, the View is implemented using JSP pages or HTML templates that display the data received from the Model.
+
+Controller: The Controller manages the flow of the application and acts as an intermediary between the Model and the View. It receives user input, processes it, and invokes the appropriate actions in the Model. In a JSP-based MVC architecture, the Controller is typically implemented using servlets.
