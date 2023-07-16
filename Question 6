@@ -1,1 +1,17 @@
+Explain the difference between the RequestDispatcher.forward() and HttpServletResponse.sendRedirect() methods?
 
+
+RequestDispatcher.forward() and HttpServletResponse.sendRedirect() are two different methods used for request forwarding and redirection in a servlet.
+
+RequestDispatcher.forward():
+
+This method is used for request forwarding to another resource (servlet or JSP) within the same web application on the server-side.
+The request is transferred to the new resource, and the processing continues from there.
+The client is unaware of the original servlet from where the request was forwarded.
+It is commonly used to chain multiple servlets or JSP pages for processing different stages of a request.
+HttpServletResponse.sendRedirect():
+
+This method is used for redirection to a new URL, which may or may not be part of the same web application.
+The server sends an HTTP response with the status code 302 (Found) or 303 (See Other) to instruct the client to send a new request to the specified URL.
+The client's browser handles the redirection by making a new request to the specified URL.
+The client knows about the new URL to which it has been redirected.
