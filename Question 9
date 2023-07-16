@@ -1,1 +1,16 @@
+What are some of the advantages of Servlets?
 
+
+Servlets offer several advantages in Java web development:
+
+Platform Independence: Servlets are written in Java, making them platform-independent. They can run on any platform with a compatible Java Virtual Machine (JVM).
+
+Performance: Servlets are efficient because they are loaded and initialized only once, and their instances can be reused for multiple requests.
+
+Scalability: Servlets can handle multiple requests concurrently, making them suitable for scalable applications.
+
+Server-Side Processing: Servlets provide server-side processing capabilities, allowing developers to implement business logic, process data, and interact with databases.
+
+Session Management: Servlets support session management, enabling the server to maintain stateful interactions with clients.
+
+Integration with Other Java Technologies: Servlets can be easily integrated with other Java technologies like JSP (JavaServer Pages), JDBC, EJB (Enterprise JavaBeans), etc.
