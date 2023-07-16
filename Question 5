@@ -1,1 +1,13 @@
+Explain the life Cycle of Servlet?
 
+
+
+The life cycle of a Servlet consists of the following methods:
+
+Initialization: When a Servlet is first loaded or initialized, the init() method is called. It is executed only once during the Servlet's lifecycle.
+
+Request Handling: For each client request, the service() method is called. The service method determines which HTTP method (GET, POST, etc.) is used and calls the appropriate method (doGet(), doPost(), etc.) to handle the request.
+
+Request Processing: The HTTP method-specific methods (doGet(), doPost(), etc.) contain the logic to process the client request and generate the response.
+
+Destroy: When the server is shutting down or decides to remove the Servlet from service, the destroy() method is called. It gives the Servlet a chance to release resources and perform cleanup.
