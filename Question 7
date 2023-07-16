@@ -1,1 +1,9 @@
+What is the purpose of the doGet() and doPost() methods in a servlet?
 
+
+
+In a servlet, the doGet() and doPost() methods are used to handle different types of HTTP requests:
+
+doGet(): This method is called to handle HTTP GET requests. It is commonly used to retrieve data from the server. For example, when a user clicks on a link or enters a URL in the browser's address bar, a GET request is sent to the server, and the doGet() method of the corresponding servlet is called to process the request.
+
+doPost(): This method is called to handle HTTP POST requests. It is commonly used to submit data to the server. For example, when a user fills out a form and submits it, a POST request is sent to the server, and the doPost() method of the corresponding servlet is called to process the form data.
